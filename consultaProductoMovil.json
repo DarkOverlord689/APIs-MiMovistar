@@ -1,0 +1,32 @@
+{
+    "name": "consultaProductoMovil",
+    "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+            "mode": "raw",
+            "raw": "{\r\n    \"documentType\": \"DNI\",\r\n    \"documentNumber\": \"10415287\"\r\n}",
+            "options": {
+                "raw": {
+                    "language": "json"
+                }
+            }
+        },
+        "url": {
+            "raw": "https://ms-common-prod.mimovistar.com.pe/commonProduct/v1/productsMobiles",
+            "protocol": "https",
+            "host": [
+                "ms-common-prod",
+                "mimovistar",
+                "com",
+                "pe"
+            ],
+            "path": [
+                "commonProduct",
+                "v1",
+                "productsMobiles"
+            ]
+        }
+    },
+    "response": []
+}

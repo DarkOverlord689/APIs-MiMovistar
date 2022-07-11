@@ -1,0 +1,43 @@
+{
+    "name": "obtieneTokenMovistar",
+    "request": {
+        "method": "POST",
+        "header": [
+            {
+                "key": "Authorization",
+                "value": "Basic dXNlcmNybTp1bmRlZmluZWQ=",
+                "type": "text"
+            }
+        ],
+        "url": {
+            "raw": "https://pasagigas.movistar.pe:7005/sas-sharing-novum/oauth/token?grant_type=client_credentials&response_type=token&client_id=usercrm",
+            "protocol": "https",
+            "host": [
+                "pasagigas",
+                "movistar",
+                "pe"
+            ],
+            "port": "7005",
+            "path": [
+                "sas-sharing-novum",
+                "oauth",
+                "token"
+            ],
+            "query": [
+                {
+                    "key": "grant_type",
+                    "value": "client_credentials"
+                },
+                {
+                    "key": "response_type",
+                    "value": "token"
+                },
+                {
+                    "key": "client_id",
+                    "value": "usercrm"
+                }
+            ]
+        }
+    },
+    "response": []
+}

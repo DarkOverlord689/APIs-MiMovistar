@@ -1,0 +1,32 @@
+{
+    "name": "consultaSaldoRecarga",
+    "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+            "mode": "raw",
+            "raw": "{\r\n    \"phone\": \"950880868\"\r\n}",
+            "options": {
+                "raw": {
+                    "language": "json"
+                }
+            }
+        },
+        "url": {
+            "raw": "https://ms-saldos-prod.mimovistar.com.pe/saldos/v1/getSaldoRecarga",
+            "protocol": "https",
+            "host": [
+                "ms-saldos-prod",
+                "mimovistar",
+                "com",
+                "pe"
+            ],
+            "path": [
+                "saldos",
+                "v1",
+                "getSaldoRecarga"
+            ]
+        }
+    },
+    "response": []
+}

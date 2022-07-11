@@ -1,0 +1,39 @@
+{
+    "name": "pasaGigasMovistar",
+    "request": {
+        "method": "POST",
+        "header": [
+            {
+                "key": "Authorization",
+                "value": "bearer 8a1dd68c-71a2-4930-b9d3-1217a7fc9e30",
+                "type": "text"
+            }
+        ],
+        "body": {
+            "mode": "raw",
+            "raw": "{\r\n    \"idCommunity\": 969766,\r\n    \"idCommunityDetail\": 2444060,\r\n    \"tipoComunidad\": \"PasaGigas\",\r\n    \"cantidad\": 1,\r\n    \"unidad\": \"GB\",\r\n    \"tipoBono\": \"DTL8\",\r\n    \"duracionDias\": \"15\",\r\n    \"telefonoSolicitante\": \"980376639\",\r\n    \"alias\": \"alonso\",\r\n    \"telefonoDonante\": \"967794171\",\r\n    \"telefonoPrincipal\": \"967794171\",\r\n    \"balance\": 15,\r\n    \"quantity\": 16,\r\n    \"cicloFacturacion\": 17,\r\n    \"fechaEnvio\": 1624217324681\r\n}",
+            "options": {
+                "raw": {
+                    "language": "json"
+                }
+            }
+        },
+        "url": {
+            "raw": "https://pasagigas.movistar.pe:7005/sas-sharing-novum/services/pasaGigas/pasarGigasTransaction",
+            "protocol": "https",
+            "host": [
+                "pasagigas",
+                "movistar",
+                "pe"
+            ],
+            "port": "7005",
+            "path": [
+                "sas-sharing-novum",
+                "services",
+                "pasaGigas",
+                "pasarGigasTransaction"
+            ]
+        }
+    },
+    "response": []
+}

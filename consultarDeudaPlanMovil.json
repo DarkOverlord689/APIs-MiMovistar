@@ -1,0 +1,32 @@
+{
+    "name": "consultarDeudaPlanMovil",
+    "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+            "mode": "raw",
+            "raw": "{\r\n    \"codPayment\": \"991578176\",\r\n    \"codService\": \"C\",\r\n    \"documentType\": \"DNI\",\r\n    \"documentNumber\": \"10415287\"\r\n}",
+            "options": {
+                "raw": {
+                    "language": "json"
+                }
+            }
+        },
+        "url": {
+            "raw": "https://ms-deuda-prod.mimovistar.com.pe/api/v1/consult-debts",
+            "protocol": "https",
+            "host": [
+                "ms-deuda-prod",
+                "mimovistar",
+                "com",
+                "pe"
+            ],
+            "path": [
+                "api",
+                "v1",
+                "consult-debts"
+            ]
+        }
+    },
+    "response": []
+}

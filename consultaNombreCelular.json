@@ -1,0 +1,33 @@
+{
+    "name": "consultaNombreCelular",
+    "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+            "mode": "raw",
+            "raw": "{\r\n    \"mobile\": \"944884830\"\r\n}   ",
+            "options": {
+                "raw": {
+                    "language": "json"
+                }
+            }
+        },
+        "url": {
+            "raw": "https://ms-ne-mimovistar-common-prod.us-south.cf.appdomain.cloud/commonProduct/v1/nameByMovil",
+            "protocol": "https",
+            "host": [
+                "ms-ne-mimovistar-common-prod",
+                "us-south",
+                "cf",
+                "appdomain",
+                "cloud"
+            ],
+            "path": [
+                "commonProduct",
+                "v1",
+                "nameByMovil"
+            ]
+        }
+    },
+    "response": []
+}

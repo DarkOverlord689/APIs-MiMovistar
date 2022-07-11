@@ -1,0 +1,32 @@
+{
+    "name": "obtenerDetallesPlanMovil",
+    "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+            "mode": "raw",
+            "raw": "{\r\n    \"mobileNumber\": \"991578176\"\r\n}",
+            "options": {
+                "raw": {
+                    "language": "json"
+                }
+            }
+        },
+        "url": {
+            "raw": "https://ms-detalleplan-prod.mimovistar.com.pe/planDetail/v1/getMobilePlanDetail",
+            "protocol": "https",
+            "host": [
+                "ms-detalleplan-prod",
+                "mimovistar",
+                "com",
+                "pe"
+            ],
+            "path": [
+                "planDetail",
+                "v1",
+                "getMobilePlanDetail"
+            ]
+        }
+    },
+    "response": []
+}
